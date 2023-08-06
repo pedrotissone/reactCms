@@ -1,0 +1,41 @@
+.footerTextDiv {
+    display: flex;         
+}
+
+.footerText {
+    color: whitesmoke;
+    font-weight: lighter;
+    cursor: pointer;  
+}
+
+.footerText:hover {
+    text-decoration: underline;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 959px) {
+    .footerText {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 852px) {
+    .footerText {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 397px) {
+    .footerTextDiv {
+        text-align: center;
+        width: fit-content;
+    }
+    .footerText {
+        font-size: 0.8rem;        
+    }
+
+}

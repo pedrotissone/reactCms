@@ -1,0 +1,44 @@
+
+
+.clickCounterDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.clickCounterButtons{
+    display: flex;
+    align-items: center;
+    color: rgb(109, 105, 105);
+}
+
+.clickCounterMenos{
+   width: 1.3rem;
+   background-color: grey;
+   cursor: pointer;    
+    
+}
+.clickCounterMas{
+    width: 1.3rem;
+    background-color: grey;
+    cursor: pointer;    
+}
+
+.clickCounter{
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.clickCounterButtonAgregarAlCarrito{    
+    padding: 0.2rem;    
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-top:1.5rem;
+    border: solid 0.1rem rgba(32, 92, 92, 0.85);
+    border-radius: 8px;
+    background-color: rgb(32, 144, 144);
+    color: rgb(234, 221, 221);
+    width: 100%;
+}
+

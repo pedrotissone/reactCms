@@ -1,0 +1,78 @@
+
+.tableCartTemplate{
+    width: 60rem;
+    margin: auto;
+    text-align: center;        
+}
+
+th{
+    font-size: 1.8rem;  
+    padding: 1rem;
+    border: solid 0.1rem rgba(128, 128, 128, 0.601);   
+    color: rgb(32, 144, 144);
+    background-color: rgba(218, 213, 213, 0.742); 
+    font-weight: lighter;    
+}
+
+td{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: solid 0.1rem rgba(128, 128, 128, 0.601); 
+    color: rgb(109, 105, 105);
+    background-color: rgba(218, 213, 213, 0.742);
+}
+
+.vaciarCarritoButton{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;  
+
+}
+
+.formInformation{
+    text-decoration: underline;
+    color: rgb(140, 11, 11);  
+    width:auto;      
+
+}
+
+.cartViewForm{
+    display: flex;   
+    justify-content: center;
+    margin-top:4rem;
+    margin-bottom: 1rem;      
+    
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;    
+    
+}
+
+.formInputDiv{
+    display: flex;
+    margin-right: 2rem;
+    
+}
+
+label{
+    font-size: 1.3rem;
+    color: rgb(32, 144, 144);
+}
+
+input{
+    border-radius: 8px;
+    width: 20rem;
+}
+
+.cartFormButton{
+    display: flex;
+    margin-left: 2rem;
+    
+}
+
+

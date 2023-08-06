@@ -1,0 +1,134 @@
+
+.itemDetailCart{
+    display: flex;    
+    margin: auto;
+    width: 40vw;
+    margin-bottom: 1rem;       
+}
+
+.itemDetailBody {
+    border-top: 0.1rem solid rgb(76 178 183);   
+    width: 100%;
+}
+
+.itemDetailDivContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 598px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-color: rgba(218, 213, 213, 0.742);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);   
+}
+
+.itemDetailImg{
+    align-self: center;
+    width: 598px
+}
+
+.itemDetailTitle{
+    text-align: center;
+    margin-bottom: 1rem;    
+    color: rgb(97, 102, 99);
+    font-size: 2.5rem; 
+    font-weight:lighter;
+}
+
+.itemDetailDescription{
+    text-align: center;    
+    color: rgba(97, 102, 99, 0.822);
+    font-size: 1.2rem; 
+}
+
+.itemDetailPrice{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+    font-size: 1.5rem;    
+    color: rgb(97, 102, 99);
+    font-size: 2rem;
+    font-weight: lighter;    
+}
+
+.clickCounterDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemDetailDiv {
+    width: 50%;
+}
+
+.itemDetailButtonMessage {
+    padding: 0.2rem;    
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-top:1.5rem;
+    border: solid 0.1rem rgba(32, 144, 144, 0.637);
+    border-radius: 8px;    
+    background-color: rgba(32, 144, 144, 0.637);
+    color: white;
+    width: 100%;
+}
+
+.itemDetailButtonVolver {
+    padding: 0.2rem;    
+    cursor: pointer;
+    margin-bottom: 1rem;    
+    border: solid 0.1rem rgba(32, 144, 144, 0.637);
+    border-radius: 8px;    
+    background-color: rgba(32, 144, 144, 0.637);    
+    color: white;
+    width: 100%;
+}
+
+@media (max-width: 671px) {
+
+    .itemDetailDivContainer, .itemDetailImg {
+        width: 400px;
+    }
+
+    .itemDetailTitle {
+        font-size: 2rem;
+    }
+
+    .itemDetailDescription {
+        font-size: 1.1rem;
+    }
+
+    .itemDetailPrice {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media (max-width:455px) {
+
+    .itemDetailDivContainer, .itemDetailImg {
+        width: 300px;
+    }
+
+    .itemDetailTitle {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .itemDetailDescription {
+        font-size: 0.9rem;
+    }
+
+    .itemDetailPrice {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .itemDetailButtonMessage, .itemDetailButtonVolver {
+        font-size: 0.7rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+
+    }
+
+}

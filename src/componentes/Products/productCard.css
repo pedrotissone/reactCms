@@ -1,0 +1,161 @@
+.productCardDiv{
+    margin-bottom: 1.5rem;
+    background-color: rgba(153, 148, 148, 0.199);
+    width: 400px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);       
+}
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+       
+}
+
+.productCardImgContainter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width:400px; 
+    height: 400px;    
+}
+
+.productCardImg{
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width:400px;
+    max-height: 400px;            
+}
+
+.productCardTitle{
+    text-align: center;
+    margin-bottom: 1rem;  
+    color: rgb(97, 102, 99);
+    font-weight: lighter;
+}
+
+.editProductCardTitle {
+    width: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.productCardDescription{
+    text-align: center;   
+    color: rgba(97, 102, 99, 0.822);
+}
+
+.editProductCardImg {
+    margin-top: 1rem;
+    margin-bottom: 1rem;  
+}
+
+.editProductCardTitle {
+    padding: 0.2rem;
+    border-radius: 8px;
+}
+
+.editProductCardDescription {
+    width: auto;
+    text-align: center;
+    border-radius: 8px;
+    padding: 0.2rem;
+}
+
+.productCardFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.productCardFooterPrice{    
+    margin-bottom: 1rem;
+    margin-top:1rem;
+    font-size: 1.5rem;
+    color: rgba(97, 102, 99, 0.822);
+}
+
+.editProductCardFooterPrice {
+    padding: 0.2rem;
+    width: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+    font-size: 1.5rem;
+    border-radius: 8px;
+}
+
+.productCardFooterButton{ 
+    padding: 0.2rem;    
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+    border: solid 0.1rem rgba(32, 144, 144, 0.637);
+    border-radius: 8px;
+    background-color: rgba(32, 144, 144, 0.637);
+    color: white;    
+}
+
+.volverYGuardarEdicionDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;    
+}
+
+                                                            /* MEDIA QUERIES */
+
+@media (max-width: 402px) {
+
+    .productCardDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 170px;       
+    }
+
+    .productCard {
+        width: 150px;
+        margin-top: 15px;
+    }
+
+    .productCardImgContainter {
+        width: 150px;
+        height: 200px;
+    }
+
+    .productCardImg {
+        width: 150px;
+        height: 200px;        
+    }
+
+    .productCardTitle {
+        height: 50px;        
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+    .productCardDescription {
+        display: none;
+    }
+
+    .productCardFooterPrice {
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .productCardFooterButton {
+        font-size: 11px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 50px;
+
+    }
+
+    .editProductCardFooterPrice {
+        width: 100%;
+    }
+
+}
+

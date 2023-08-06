@@ -1,0 +1,14 @@
+.carrito{      
+    display: flex;
+    align-items: center;    
+    margin-top: 1rem;
+    justify-content: flex-end;
+    margin-right: 1rem;       
+}
+
+.carritoNumber{
+    font-size: larger;
+    font-weight: bolder;
+    color: #205c5c;
+    margin-left: 0.1rem;
+}

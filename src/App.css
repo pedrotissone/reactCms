@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Hanken Grotesk', sans-serif;
+ }
+
+body{   
+  background-color: #f4f4f4;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.productSection{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.footer {
+  display: flex; 
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background-color: rgb(153, 148, 148);
+  border: 0.1rem solid whitesmoke;  
+}
+
+.galeriaTitle {
+  color: whitesmoke;
+  font-weight: lighter;    
+  font-size: 3rem;  
+  margin-bottom: 2rem;
+  background-color: rgb(153, 148, 148);
+  font-family: 'Caveat', cursive;  
+  text-align: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);   
+
+}
+
+.paginaEnConstruccion {
+  color: whitesmoke;
+  margin: auto;
+  margin-top: 8rem;
+  font-weight: lighter;
+}
+
+                                                              /* MEDIA QUERIES */
+                                                              
+@media (max-width: 860px) {
+  .footer {
+    flex-direction: column;    
+  }
+}
+
+@media (max-width: 465px) {
+
+  .galeriaTitle {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width:320px) {
+  .galeriaTitle {
+    font-size: 1.6rem;
+  }
+}

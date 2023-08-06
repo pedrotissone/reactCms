@@ -1,0 +1,48 @@
+.formDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.formularioDeAcceso {
+    display: flex;
+    flex-direction: column;     
+}
+
+.formButton {
+    padding: 0.2rem;    
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+    border: solid 0.1rem #f4f4f4;
+    border-radius: 8px;
+    background-color: rgb(32, 144, 144);
+    color: rgb(234, 221, 221); 
+}
+
+.formUser {
+    width: 20rem;
+    border-radius: 8px;
+    height: 1.4rem;
+    
+}
+
+.formPassword {
+    width: 20rem;
+    border-radius: 8px;
+    height: 1.4rem;
+    
+}
+
+.formButton {
+    width: 20rem;
+}
+
+                                                        /* MEDIA QUERIES */
+
+@media (max-width: 346px) {
+    
+    .formUser, .formPassword, .formButton {
+        width: 15rem;       
+    }
+}

@@ -1,0 +1,26 @@
+/* .galeriaTitle {
+    color: whitesmoke;
+    font-weight: lighter;    
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    border: 0.1rem solid rgb(14, 83, 83);    
+    background-color: rgba(128, 128, 128, 0.555);
+    font-family: 'Caveat', cursive;
+    
+} */
+
+.carrouselImagenes {
+    height: 450px;          
+    margin: auto;    
+}
+
+.slick-prev, .slick-next {
+    visibility: hidden;
+    left: 0
+}
+
+@media (max-width: 392px) {
+    .carrouselImagenes {
+        height: 21rem;       
+    }
+}

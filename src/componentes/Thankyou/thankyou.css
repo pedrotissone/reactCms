@@ -1,0 +1,23 @@
+
+.thankYouDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.thankYouAgradecimiento{
+    color: rgb(87, 83, 83);
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+.thankYouCodigo{
+    color: rgb(87, 83, 83);
+    font-weight: lighter;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.thankYouOrder{
+    color: rgb(32, 144, 144);
+}

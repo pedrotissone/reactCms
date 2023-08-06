@@ -1,0 +1,90 @@
+
+.navBar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: #266154; 
+    margin-bottom: 2rem;
+}
+
+.divCrearNuevoProducto {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.crearNuevoProducto {
+    color: rgb(153, 148, 148);
+    font-family: 'Caveat', cursive;
+    font-size: 2.3rem;    
+}
+
+.crearNuevoProducto:hover {
+    text-decoration: underline;
+}
+
+.modificarPrecioDeProductos {
+    color: rgb(153, 148, 148);
+    font-family: 'Caveat', cursive;
+    font-size: 2.3rem;    
+}
+
+.modificarPrecioDeProductos:hover {
+    text-decoration: underline;
+}
+
+                                                                    /* MEDIA QUERIES */
+
+@media (max-width: 1145px) {
+
+.crearNuevoProducto, .modificarPrecioDeProductos {
+    font-size: 1.7rem;
+}
+}
+
+@media (max-width: 867px) {
+    .navBar {
+        justify-content: space-evenly;
+    }
+    
+    .divCrearNuevoProducto {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 626px) {
+    .navBarLink1 {
+        display: flex;
+        justify-content: center;       
+        width: 100%;
+        border-top: 0.1rem solid whitesmoke;        
+    }
+
+    .navBarLink2 {
+        display: flex;
+        justify-content: center;       
+        width: 100%;
+        border-top: 0.1rem solid whitesmoke;        
+    }
+
+    .navBarLink3 {
+        display: flex;
+        justify-content: center;       
+        width: 100%;
+        border-top: 0.1rem solid whitesmoke;
+        border-bottom: 0.1rem solid whitesmoke;       
+    }
+
+    .navBarLink1:hover, .navBarLink2:hover, .navBarLink3:hover {      
+        background-color: rgb(153, 148, 148);
+
+    }
+    .navBar {       
+        flex-direction: column;
+        align-items: center;        
+    }
+    
+}
+
+                                                       
