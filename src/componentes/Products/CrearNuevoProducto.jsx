@@ -89,13 +89,13 @@ function CrearNuevoProducto() { //Primero vamos a probar solo con la imagen y de
 
             <label className="crearNuevoProductoLabel">Seleccione la categoria del producto</label>           
            
-            <label className="crearNuevoProductoLabel" htmlFor="Flores preservadas">Flores preservadas</label>
+            <label className="crearNuevoProductoLabel" htmlFor="Flores preservadas">Zapatillas</label>
             <input type="radio" id="Flores preservadas" name="category" value="Flores preservadas" checked={category == "Flores preservadas"} onChange={handleCategory}></input>           
             
-            <label className="crearNuevoProductoLabel" htmlFor="Piedras">Piedras</label>
+            <label className="crearNuevoProductoLabel" htmlFor="Piedras">Gorras</label>
             <input type="radio" id="Piedras" name="category" value="Piedras" checked={category == "Piedras"} onChange={handleCategory}></input>          
             
-            <label className="crearNuevoProductoLabel" htmlFor="Porcelana fria">Porcelana fria</label>
+            <label className="crearNuevoProductoLabel" htmlFor="Porcelana fria">Anteojos</label>
             <input type="radio" id="Porcelana fria" name="category" value="Porcelana fria" checked={category == "Porcelana fria"} onChange={handleCategory}></input>    
            
            

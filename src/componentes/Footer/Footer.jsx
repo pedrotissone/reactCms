@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa"
 function Footer() {
 
     function handleClickInstagram() {
-        window.open("https://www.instagram.com/aegina.tocados/", "_blank");
+        window.open("https://www.instagram.com/tiza90/", "_blank");
     }
 
     function handleClickWhatsapp() {
@@ -24,7 +24,7 @@ function Footer() {
 
             <div className="footerTextDiv">
             < FaWhatsapp size={17} style={{color:"whitesmoke"}}/>
-            <p className="footerText" onClick={handleClickWhatsapp}>+54 9 11 6614-2146</p>
+            <p className="footerText" onClick={handleClickWhatsapp}>+54 9 11 6356-6348</p>
             </div>
             
             <div className="footerTextDiv">
@@ -32,7 +32,7 @@ function Footer() {
             <p className="footerText" onClick={handleClickInstagram}> I N S T A G R A M</p>
             </div>            
             <div className="footerTextDiv">
-            <p className="footerText">Aegina Head Pieces Copyright 2023</p>
+            <p className="footerText">React E-Commerce Copyright 2023</p>
             < BiSolidCopyright size={17} style={{color:"whitesmoke"}}/>
             </div>
             

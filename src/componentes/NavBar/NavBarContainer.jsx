@@ -14,11 +14,11 @@ function NavBarContainer(props) {
     <>    
        <div className="navBar">
 
-        <Link className="navBarLink1" to="/category/Flores preservadas" ><NavBarItem title="CATEGORY 1" img="/img/img1.jpeg"/></Link>
+        <Link className="navBarLink1" to="/category/Flores preservadas" ><NavBarItem title="CATEGORY 1" img="/img/categoryZapatillas.jpg"/></Link>
 
-        <Link className="navBarLink2" to="/category/Piedras"><NavBarItem title="CATEGORY 2" img="/img/piedra1.jpeg"/></Link>
+        <Link className="navBarLink2" to="/category/Piedras"><NavBarItem title="CATEGORY 2" img="/img/categoryGorras.jpg"/></Link>
 
-        <Link className="navBarLink3" to="/category/Porcelana fria"><NavBarItem title="CATEGORY 3" img="/img/porcelana3.jpeg"/></Link>        
+        <Link className="navBarLink3" to="/category/Porcelana fria"><NavBarItem title="CATEGORY 3" img="/img/categoryAnteojos.webp"/></Link>        
 
       </div>
       
