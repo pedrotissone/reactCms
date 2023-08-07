@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-    background-color: #266154; 
+    background-color: rgb(153 148 148);
     margin-bottom: 2rem;
 }
 
@@ -77,7 +77,7 @@
     }
 
     .navBarLink1:hover, .navBarLink2:hover, .navBarLink3:hover {      
-        background-color: rgb(153, 148, 148);
+        background-color: rgb(245 126 45);
 
     }
     .navBar {       
