@@ -10,7 +10,7 @@ function Footer() {
     }
 
     function handleClickWhatsapp() {
-        window.open("https://wa.me/541166142146", "_blank")
+        window.open("https://wa.me/541163566348", "_blank")
     }
 
     return(
