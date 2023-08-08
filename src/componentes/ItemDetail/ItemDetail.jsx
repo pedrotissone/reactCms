@@ -14,7 +14,7 @@ function ItemDetail(product) {
   }  
 
   function sendMessage() {        
-    const ownerPhoneNumber = '541166142146'; // Reemplaza con el número de teléfono del dueño del eCommerce
+    const ownerPhoneNumber = '541163566348'; // Reemplaza con el número de teléfono del dueño del eCommerce
     const message = `¡Hola! Estoy interesado en el producto ${product.title}, que aparece aquí: ${window.location.href}`;
     const url = `https://wa.me/${ownerPhoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
