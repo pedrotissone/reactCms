@@ -43,11 +43,10 @@ function FormularioDeAcceso() {
 	return(
 		
 		<div className="formDiv" onSubmit={handleSubmit}>
-			
 				<form className="formularioDeAcceso">
 			<input className="formUser" type="text" placeholder="pepe@pepe.com" onChange={handleUserNameChange}/>
 			<input className="formPassword" type="password" placeholder="123456" onChange={handlePasswordChange}/>
-			<button className="formButton" type="submit">Confirmar</button>
+			<button className="formButton" type="submit">CONFIRMAR</button>
 		</form>	
 		
 
