@@ -3,6 +3,7 @@ import "./navBarContainer.css"
 import {Link} from "react-router-dom"
 import {cartContext} from "../../context/cartContext"
 import { useContext } from "react"
+import { Stack } from "@mui/material"
 
 
 
@@ -25,7 +26,11 @@ function NavBarContainer(props) {
       {user && <div className='divCrearNuevoProducto'>
       <Link to={"/CrearNuevoProducto"}><h2 className="crearNuevoProducto">Crear nuevo producto</h2></Link>
       <Link to={"/ModificarPrecioDeProductos"}><h2 className="modificarPrecioDeProductos">Modificar precio de productos</h2></Link>
-      </div>}      
+      </div>}
+
+      <Stack>
+      
+      </Stack>      
     </>
   )
 }
