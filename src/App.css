@@ -23,13 +23,14 @@ body{
 }
 
 .footer {
-  display: flex; 
+  /* display: flex; 
   justify-content:space-around;
-  align-items: center;
+  align-items: center; */
   margin-top: 3rem;
   padding: 1.5rem;
   background-color: rgb(153, 148, 148);
-  border: 0.1rem solid whitesmoke;  
+  border: 0.1rem solid whitesmoke;
+  width: 100%;  
 }
 
 .galeriaTitle {
@@ -53,11 +54,11 @@ body{
 
                                                               /* MEDIA QUERIES */
                                                               
-@media (max-width: 860px) {
+/* @media (max-width: 860px) {
   .footer {
     flex-direction: column;    
   }
-}
+} */
 
 @media (max-width: 465px) {
 
